@@ -1,0 +1,30 @@
+{
+  "name": "eclipse-color-theme",
+  "displayName": "Eclipse Color Theme",
+  "description": "Syntax highlighting inspired by Eclipse",
+  "version": "0.1.0",
+  "publisher": "roehling",
+  "license": "Apache-2.0",
+  "engines": {
+    "vscode": "^1.35.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Eclipse Color Theme",
+        "uiTheme": "vs",
+        "path": "./themes/Eclipse Color Theme-color-theme.json"
+      }
+    ]
+  },
+  "bugs": {
+    "url": "https://github.com/roehling/vcode-eclipse-color-theme/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/roehling/vcode-eclipse-color-theme.git"
+  }
+}
