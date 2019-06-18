@@ -40,7 +40,8 @@
 		{
 			"name": "Numbers",
 			"scope": [
-				"constant.numeric"
+				"constant.numeric",
+				"keyword.other.unit"
 			],
 			"settings": {
 				"fontStyle": "",
@@ -70,6 +71,7 @@
 				"keyword.operator.word",
 				"keyword.operator.sizeof",
 				"keyword.operator.alignof",
+				"keyword.operator.logical.python",
 				"constant.language",
 				"variable.language",
 				"keyword.declaration.function",
@@ -90,7 +92,7 @@
 		{
 			"name": "Operators",
 			"scope": [
-				"keyword.operator"
+				"keyword.operator",
 			],
 			"settings": {
 				"fontStyle": "",
@@ -111,10 +113,30 @@
 		{
 			"name": "Template Types",
 			"scope": [
-				"entity.name.type.template"
+				"entity.name.type.template",
 			],
 			"settings": {
 				"fontStyle": "bold",
+				"foreground": "#336633"
+			}
+		},
+		{
+			"name": "CUDA Kernel Brackets",
+			"scope": [
+				"meta.kernel-call punctuation.section.kernel"
+			],
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#336633"
+			}
+		},
+		{
+			"name": "CUDA Kernel Call",
+			"scope": [
+				"meta.kernel-call entity.name.function"
+			],
+			"settings": {
+				"fontStyle": "",
 				"foreground": "#336633"
 			}
 		},
@@ -133,6 +155,7 @@
 			"name": "Functions",
 			"scope": [
 				"meta.function.definition entity.name.function",
+				"entity.name.function.python"
 			],
 			"settings": {
 				"fontStyle": "bold",
@@ -170,6 +193,18 @@
 			}
 		},
 		{
+			"name": "SDK types and functions",
+			"scope": [
+				"support.function",
+				"support.type.python",
+				"support.type.posix-reserved"
+			],
+			"settings":{
+				"foreground": "#642880",
+				"fontStyle": "bold"
+			}
+		},
+		{
 			"name": "Python: self",
 			"scope": [
 				"variable.parameter.function.language.special.self",
@@ -178,6 +213,26 @@
 			"settings": {
 				"fontStyle": "italic",
 				"foreground": "#000000"
+			}
+		},
+		{
+			"name": "Decorators",
+			"scope": [
+				"entity.name.function.decorator"
+			],
+			"settings":{
+				"foreground": "#7D7D7D",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Docstrings",
+			"scope": [
+				"string.quoted.docstring"
+			],
+			"settings":{
+				"foreground": "#406080",
+				"fontStyle": ""
 			}
 		},
 		{
@@ -277,6 +332,26 @@
 			"settings": {
 				"foreground": "#000000",
 				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "TODOs",
+			"scope": [
+				"keyword.codetag"
+			],
+			"settings": {
+				"foreground": "#86A3BF",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Support",
+			"scope": [
+				"support"
+			],
+			"settings": {
+				"foreground": "#336633",
+				"fontStyle": ""
 			}
 		}
 	]
