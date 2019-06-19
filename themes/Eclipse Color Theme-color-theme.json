@@ -154,8 +154,7 @@
 		{
 			"name": "Functions",
 			"scope": [
-				"meta.function.definition entity.name.function",
-				"entity.name.function.python"
+				"entity.name.function"
 			],
 			"settings": {
 				"fontStyle": "bold",
