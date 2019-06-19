@@ -2,7 +2,7 @@
 	"name": "eclipse-color-theme",
 	"displayName": "Eclipse Color Theme",
 	"description": "Syntax highlighting inspired by Eclipse",
-	"version": "0.1.1",
+	"version": "0.1.2",
 	"publisher": "roehling",
 	"license": "Apache-2.0",
 	"engines": {
