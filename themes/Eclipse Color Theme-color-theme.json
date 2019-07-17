@@ -34,7 +34,7 @@
 			],
 			"settings":{
 				"fontStyle": "",
-				"foreground": "#7090FF",
+				"foreground": "#7090FF"
 			}
 		},
 		{
@@ -92,7 +92,7 @@
 		{
 			"name": "Operators",
 			"scope": [
-				"keyword.operator",
+				"keyword.operator"
 			],
 			"settings": {
 				"fontStyle": "",
@@ -113,7 +113,7 @@
 		{
 			"name": "Template Types",
 			"scope": [
-				"entity.name.type.template",
+				"entity.name.type.template"
 			],
 			"settings": {
 				"fontStyle": "bold",
@@ -184,7 +184,7 @@
 		{
 			"name": "Preprocessor: Headers",
 			"scope": [
-				"meta.preprocessor string.quoted",
+				"meta.preprocessor string.quoted"
 			],
 			"settings": {
 				"fontStyle": "",
@@ -237,7 +237,7 @@
 		{
 			"name": "HTML/XML Tags",
 			"scope": [
-				"entity.name.tag",
+				"entity.name.tag"
 			],
 			"settings": {
 				"foreground": "#800555",
